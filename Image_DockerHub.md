@@ -5,7 +5,8 @@
         <enter your docker hub username & password>
 
 2. To tag
-    syntax: docker tag <tagname>:latest <DockerHubUserName>/<RepoName>:latest
+
+        syntax: docker tag <tagname>:latest <DockerHubUserName>/<RepoName>:latest
 
             docker tag mywebapp:latest username/mydemoapp:latest
 
