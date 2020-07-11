@@ -8,7 +8,7 @@ $ docker images -a
 
 Remove:
 
-$ docker rmi $(docker images -a -q)
+$ docker rmi -f $(docker images -a -q)
 
 $ docker images purge
 
