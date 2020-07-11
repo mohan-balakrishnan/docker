@@ -10,6 +10,8 @@ Remove:
 
 $ docker rmi $(docker images -a -q)
 
+$ docker images purge
+
 # Remove Docker Containers
 
 List:
