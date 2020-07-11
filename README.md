@@ -6,7 +6,7 @@ A basic tutorial on running a web app on Tomcat using Docker
 * Clone this repository - $git clone https://github.com/mohan-balakrishnan/docker.git
 * cd docker
 * $docker build -t mywebapp .
-* $docker run -p 80:8080 mywebapp
+* $docker run -d -p 80:8080 mywebapp
 * http://localhost:80
 
 # Links
