@@ -16,7 +16,7 @@ List:
 
 $ docker ps -a
 
-Remove
+Remove:
 
 $ docker stop $(docker ps -a -q)
 
