@@ -23,3 +23,10 @@ Remove:
 $ docker stop $(docker ps -a -q)
 
 $ docker rm $(docker ps -a -q)
+
+
+Docker Volume:  (-v)
+
+Docker image : `docker pull httpd:2.4`
+
+run image asc container: `sudo docker run -dit --name myapacheapp -p 8080:80 -v /usr/demo/:/usr/local/apache2/htdocs/ httpd:2.4`
