@@ -4,25 +4,25 @@
 
 List:
 
-$ docker images -a
+`$ docker images -a`
 
 Remove:
 
-$ docker rmi -f $(docker images -a -q)
+`$ docker rmi -f $(docker images -a -q)`
 
-$ docker images purge
+`$ docker images purge`
 
 ## Remove Docker Containers
 
 List:
 
-$ docker ps -a
+`$ docker ps -a`
 
 Remove:
 
-$ docker stop $(docker ps -a -q)
+`$ docker stop $(docker ps -a -q)`
 
-$ docker rm $(docker ps -a -q)
+`$ docker rm $(docker ps -a -q)`
 
 ## Docker Volume:  (-v)
 
