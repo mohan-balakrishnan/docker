@@ -27,10 +27,15 @@ Remove:
 ## Docker Volume:  (-v)
 
 `docker volume`  //get information
+
 `docker volume create`
+
 `docker volume ls`
+
 `docker volume inspect`
+
 `docker volume rm`
+
 `docker volume prune`
 
 Docker image : `docker pull httpd:2.4`
